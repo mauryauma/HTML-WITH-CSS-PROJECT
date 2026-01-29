@@ -244,3 +244,29 @@ ul a {
     
 }
 
+/* --- Mobile Responsive --- */
+@media (max-width: 768px) {
+    
+    /* Hide search bar */
+    .nav-search {
+        display: none;
+    }
+
+    /* Stack boxes vertically */
+    .shop-section {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    /* Set box width */
+    .box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust hero height */
+    .hero-section {
+        height: 250px;
+    }
+}
+
