@@ -270,3 +270,10 @@ ul a {
     }
 }
 
+
+div:hover{
+    background-color: #798796;
+    color: #cccccc;
+
+}
+
